@@ -15,14 +15,11 @@ $app->post("/insert/", function ($request, $response) {
 	{
 	exit();
 	}
-	//Nummer vergeben:
+	//Nummer vergeben:asfanmfqwfo
 		$ab2 = "SELECT (Nummer) FROM daten ORDER BY id DESC LIMIT 1";
 		$erg2 = mysqli_query($dz, $ab2);
 		$row1 = mysqli_fetch_row($erg2);
 		$newNumber;
-		if (strlen($row1[0]) !== 0){
-			if ($row1[0] < 100) {
-				$newNumber = $row1[0]+1;
 			} else {
 				$newNumber = 1;
 			}
