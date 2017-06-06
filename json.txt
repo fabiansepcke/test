@@ -1,0 +1,1 @@
+[["Cola","13"],["brauner Rum","5"],["Zucker","32"],["Limette","9"],["Eiswuerfel","34"],"59","Cuba Libre"]
