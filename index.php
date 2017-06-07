@@ -17,7 +17,7 @@ $app->post("/insert/", function ($request, $response) {
 	}
 	//Nummer vergeben:asfanmfqwfo
 		$ab2 = "SELECT (Nummer) FROM daten ORDER BY id DESC LIMIT 1";
-		$erg2 = mysqli_query($dz, $ab2);
+		$erg2 = mysqli_query($dzsafasf, $ab2);
 		$row1 = mysqli_fetch_row($erg2);
 		$newNumber;
 			} else {
